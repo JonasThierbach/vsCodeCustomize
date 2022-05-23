@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Material Theme Darker",
+    "workbench.iconTheme": "icons",
+    "vscode_custom_css.imports": ["file:///C:/Users/AppData/Roaming/Code/User/VsCode.css"],
+    "liveServer.settings.donotShowInfoMsg": "true",
+    "css.validate": "false",
+    "terminal.integrated.gpuAcceleration": "off",
+    "svelte.enable-ts-plugin": "true",
+    "workbench.activityBar.visible": "false",
+    "git.decorations.enabled": "false",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "entity.name.type.class",
+                    "keyword",
+                    "constant",
+                    "storage.modifier",
+                    "storage.type.class.js"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 14,
+    "editor.cursorBlinking": "expand"
+}   
